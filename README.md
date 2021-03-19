@@ -28,6 +28,10 @@ On injecte les données dans un tableau panda que l'on transforme en csv.
 On importe le fichier CSV dans mysql attention au format des nombres, dates ...;
 ![image](mamp.PNG)
 
+!(image](dockercompose.PNG)
+
+![image](extaction.PNG)
+
 # Docker
 ![image](docker.PNG)
 

@@ -10,11 +10,13 @@ dataset : https://www.nasdaq.com/market-activity/stocks/aapl/historical => cours
 
 scrapping : selenium
 
-bdd:mysql 
+bdd : mysql 
 
 visualisation des données : grafana
 
 utilisation de docker 
+
+Visualisation des données : 
 
 ![image](pagewebscrappée.PNG)
 
@@ -22,17 +24,22 @@ utilisation de docker
 
 Le "scapper" choisi l'année dans la page web, et ensuite sélectionne toutes les données en passant d'une page à l'autre.
 On injecte les données dans un tableau panda que l'on transforme en csv.
+![image](extraction.PNG)
+
 
 
 # Base de données:
-On importe le fichier CSV dans mysql attention au format des nombres, dates ...;
+On importe le fichier CSV dans mysql en intégrant les formats qui nous servirons pour la suite de notre étude.
 ![image](mamp.PNG)
+
+
+#Mise en place des containers dans l'invite de commande 
 
 ![image](dockercompose.PNG)
 
-![image](extraction.PNG)
 
 # Docker
+
 ![image](docker.PNG)
 
 # Visualisation des données sous grafana.

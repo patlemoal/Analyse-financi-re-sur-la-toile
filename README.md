@@ -360,6 +360,8 @@ mysql>
 `````
 # Docker
 
+on clique sur grafana pour que la page web s'ouvre 
+
 ![image](docker.PNG)
 
 # Visualisation des données sous grafana.

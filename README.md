@@ -38,9 +38,11 @@ On importe le fichier CSV dans mysql en intégrant les formats qui nous serviron
 préparation du docker compose
 ![image](dockercompose.PNG)
 
+````
 # on se place sur le répertoire
 (base) C:\Users\utilisateur>cd C:\projets\analysefi\Analyse-financi-re-sur-la-toile
-# 
+
+# on crée nos containers
 (base) C:\projets\analysefi\Analyse-financi-re-sur-la-toile>docker-compose up -d
 Creating network "analyse-financi-re-sur-la-toile_default" with the default driver
 Creating grafana ... done
@@ -354,7 +356,7 @@ mysql> select * from coursapple;
 +------------+--------+-----------+--------+--------+--------+
 252 rows in set (0.00 sec)
 
-mysql>
+mysql> ```
 
 
 

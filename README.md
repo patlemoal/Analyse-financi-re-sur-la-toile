@@ -30,7 +30,7 @@ On importe le fichier CSV dans mysql attention au format des nombres, dates ...;
 
 !(image](dockercompose.PNG)
 
-![image](extaction.PNG)
+![image](extraction.PNG)
 
 # Docker
 ![image](docker.PNG)

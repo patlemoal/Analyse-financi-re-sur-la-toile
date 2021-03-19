@@ -26,6 +26,10 @@ On injecte les données dans un tableau panda que l'on transforme en csv.
 
 # Base de données:
 On importe le fichier CSV dans mysql attention au format des nombres, dates ...;
+![image](mamp.PNG)
+
+# Docker
+![image](docker.PNG)
 
 # Visualisation des données sous grafana.
 ![image](GRAFGRAPHANA.PNG)

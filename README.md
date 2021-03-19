@@ -356,8 +356,8 @@ mysql> select * from coursapple;
 +------------+--------+-----------+--------+--------+--------+
 252 rows in set (0.00 sec)
 
-mysql> ```
-
+mysql> 
+```
 
 
 # Docker
@@ -365,6 +365,20 @@ mysql> ```
 ![image](docker.PNG)
 
 # Visualisation des données sous grafana.
+
+Connexion à grafana
+
+Soit sur docker, on va dans cli et nous sommes dirigés vers la page internet grafana
+
+Soit on saisi directement sur internet l'adresse IP du serveur suivi du port Grafana (http://10.10.51.153:3000),
+
+on se connecte à grafana
+
+  identifiant :admin
+  
+  mdp : admin 
+
+
 ![image](GRAFGRAPHANA.PNG)
 
 

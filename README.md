@@ -24,7 +24,7 @@ Visualisation des données :
 
 Le "scapper" choisi l'année dans la page web, et ensuite sélectionne toutes les données en passant d'une page à l'autre.
 On injecte les données dans un tableau panda que l'on transforme en csv.
-![image](extraction.PNG)
+![image](notebook.PNG)
 
 
 

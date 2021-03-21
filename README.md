@@ -28,6 +28,8 @@ Visualisation des données :
 
 ![image](pagewebscrappée.PNG)
 
+Notre jeu de données comporte la date, le cours du jour à l'ouverture, à la fermeture, le plus haut et le plus bas de la journée , et le volume.
+
 # Construction d'un notebook pour extraire les données .
 
 Le "scapper" choisi l'année dans la page web, et ensuite sélectionne toutes les données en passant d'une page à l'autre.

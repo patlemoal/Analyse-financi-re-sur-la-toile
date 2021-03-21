@@ -16,9 +16,11 @@ visualisation des données : grafana
 
 utilisation de docker 
 
-Pour le scrapping, nous avons décidé d'utiliser selenium après avoir étudié BeautifulSoup et scraper. L'outil nous permettant la mise en place d'un "robot" performant qui va de paes en pages.
+Pour le scrapping, nous avons décidé d'utiliser selenium après avoir étudié BeautifulSoup et scraper. L'outil nous permettant la mise en place d'un "robot" performant qui va de pages en pages.
+
 Nous avons choisi d'utiliser grafana pour visualiser nos graphes, l'outil étant assez intuitif et permettant la réalisation de graphiques explicites.
 Le tout combiné à mysql pour notre base de données. Les outils sont gratuits et  la combinaison grafana-mysql est performante .
+
 
 Toute la construction des conteneurs, la configuration de grafana et l'insertion des données se fait à partir d'un docker-compose.yml
 
@@ -29,7 +31,9 @@ Visualisation des données :
 # Construction d'un notebook pour extraire les données .
 
 Le "scapper" choisi l'année dans la page web, et ensuite sélectionne toutes les données en passant d'une page à l'autre.
+
 nb: le geckodriver.exe est necessaire à l'exécution du fichier (nous utilisons la version adaptée au navigateur web que nous utilisons à savoir firefox)
+
 On injecte les données dans un tableau panda que l'on transforme en csv pour la suite de notre étude.
 ![image](notebook.PNG)
 

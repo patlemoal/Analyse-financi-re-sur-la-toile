@@ -16,6 +16,12 @@ visualisation des données : grafana
 
 utilisation de docker 
 
+Pour le scrapping, nous avons décidé d'utiliser selenium après avoir étudié BeautifulSoup et scraper. L'outil nous permettant la mise en place d'un "robot" performant qui va de paes en pages.
+Nous avons choisi d'utiliser grafana pour visualiser nos graphes, l'outil étant assez intuitif et permettant la réalisation de graphiques explicites.
+Le tout combiné à mysql pour notre base de données. Les outils sont gratuits et  la combinaison grafana-mysql est performante .
+
+Toute la construction des conteneurs, la configuration de grafana et l'insertion des données se fait à partir d'un docker-compose.yml
+
 Visualisation des données : 
 
 ![image](pagewebscrappée.PNG)
@@ -79,7 +85,7 @@ mysql> show databases;
 | sys                |
 +--------------------+
 
-#on se place sur la bdd sur laquelle, nous allons travaillé
+#on se place sur la bdd sur laquelle, nous allons travailler
 
 mysql> use apple;
 

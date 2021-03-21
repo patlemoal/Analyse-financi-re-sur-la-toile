@@ -23,7 +23,8 @@ Visualisation des données :
 # Construction d'un notebook pour extraire les données .
 
 Le "scapper" choisi l'année dans la page web, et ensuite sélectionne toutes les données en passant d'une page à l'autre.
-On injecte les données dans un tableau panda que l'on transforme en csv.
+nb: le geckodriver.exe est necessaire à l'exécution du fichier (nous utilisons la version adaptée au navigateur web que nous utilisons à savoir firefox)
+On injecte les données dans un tableau panda que l'on transforme en csv pour la suite de notre étude.
 ![image](notebook.PNG)
 
 
